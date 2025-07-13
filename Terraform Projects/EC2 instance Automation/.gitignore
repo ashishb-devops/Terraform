@@ -1,0 +1,8 @@
+# Ignore Terraform local state files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+
+# Ignore AWS provider binary if any
+*.exe
