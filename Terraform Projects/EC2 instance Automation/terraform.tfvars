@@ -1,4 +1,5 @@
-aws_region     = "ap-south-1"
-ami_id         = "ami-0a1235697f4afa8a4"
+
+aws_region     = "us-east-1"
+ami_id         = "ami-020cba7c55df1f615"
 instance_type  = "t2.micro"
-key_name       = "terraform-key"
+key_name       = "target"
