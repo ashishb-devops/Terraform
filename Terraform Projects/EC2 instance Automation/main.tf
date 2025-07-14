@@ -7,8 +7,8 @@ provider "aws" {
 resource "aws_default_vpc" "default" {}
 
 # Create a security group to allow SSH (22) and HTTP (80)
-resource "aws_security_group" "web_sg" {
-  name        = "web-sg"
+resource "aws_security_group" "vm_sg" {
+  name        = "vm_sg"
   description = "Allow SSH and HTTP"
   vpc_id      = aws_default_vpc.default.id
 
@@ -36,19 +36,19 @@ resource "aws_security_group" "web_sg" {
   }
 
   tags = {
-    Name = "web-sg"
+    Name = "vm_sg"
   }
 }
 
 # Launch an EC2 instance
-resource "aws_instance" "web" {
+resource "aws_instance" "myappserver" {
   ami           = var.ami_id
   instance_type = var.instance_type
   key_name      = var.key_name
-  security_groups = [aws_security_group.web_sg.name]
+  security_groups = [aws_security_group.vm_sg.name]
 
   tags = {
-    Name = "Terraform-EC2"
+    Name = "Terraform-app-EC2"
   }
 
   root_block_device {
