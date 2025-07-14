@@ -24,12 +24,12 @@ Before using this project, ensure you have:
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) installed and configured (`aws configure`)
 - An AWS IAM user with permission to launch EC2 instances
 
-## 🚀 Usage
+## 🚀 Commands Used
 
-- Initialize Terraform- terraform init
-- Preview the execution plan- terraform plan
-- Apply the configuration- terraform apply
-- Destroy resources (optional)- terraform destroy
+terraform init
+terraform plan
+terraform apply
+terraform destroy
 
 
 ## 📤 Outputs
