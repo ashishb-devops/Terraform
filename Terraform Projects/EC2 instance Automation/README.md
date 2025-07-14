@@ -5,14 +5,14 @@ This project uses Terraform to automate the creation of an EC2 instance in AWS, 
 
 This Terraform project performs the following tasks in AWS:
 
-- ✅ Creates a **default VPC** (if not already present)
-- ✅ Creates a **Security Group** allowing:
+- ✅ Creates a default VPC (if not already present)
+- ✅ Creates a Security Group allowing:
   - SSH (Port 22)
   - HTTP (Port 80)
-- ✅ Launches an **EC2 Instance**
+- ✅ Launches an EC2 Instance
 - ✅ Outputs:
-  - EC2 Instance **Public IP**
-  - EC2 Instance **ID**
+  - EC2 Instance Public IP
+  - EC2 Instance ID
 
 ---
 
