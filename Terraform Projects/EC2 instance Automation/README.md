@@ -1,5 +1,5 @@
 # Terraform EC2 instance automation
-This project uses Terraform to automate the creation of an EC2 instance in AWS, allowed SSH and HTTP access. It is a beginner friendly project to get hands on IaC
+This project uses Terraform to automate the creation of an EC2 instance in AWS. 
 
 ## 📋 Description
 
