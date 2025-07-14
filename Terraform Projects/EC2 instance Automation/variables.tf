@@ -17,7 +17,7 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 
-# Key pair name
+# Key value pair name
 variable "key_name" {
   description = "Name of the SSH key pair"
   type        = string
