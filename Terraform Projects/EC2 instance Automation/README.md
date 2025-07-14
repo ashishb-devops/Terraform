@@ -34,7 +34,7 @@ Before using this project, ensure you have:
 
 ## 📤 Outputs
   
-After a successful apply, Terraform will display:
+After running the terraform apply, Terraform will provision the ec2 instance and display below details:
 - ✅ EC2 Instance Public IP
 - ✅ EC2 Instance ID
 
