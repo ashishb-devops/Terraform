@@ -4,5 +4,3 @@
 *.tfstate.backup
 
 
-# Ignore AWS provider binary if any
-*.exe
